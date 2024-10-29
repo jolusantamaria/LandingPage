@@ -62,3 +62,199 @@ body {
     color: #001F3F;
     background-color: #fff;
 }
+
+.top-subsection .top-text .title {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.top-image {
+    display: flex;
+    /*border:5px solid rgb(226, 43, 150);*/
+    margin-left: 10px;
+}
+
+.top-image img {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.top-subsection {
+    margin-top: 60px;
+    display: flex;
+    flex: 1;
+    /* margin-left: 90px; */
+    height: 90vh;
+    /* border:5px solid rgb(60, 243, 24);*/
+    justify-content: space-between;
+}
+
+.subtext {
+    font-family: "truenobd";
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+    /* border:5px solid blueviolet;*/
+}
+
+.top-text .mybutton {
+    border: 1px solid #2d3c50;
+    width: 60%;
+}
+
+.mybutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    transition: all .5s ease;
+    font-family: "truenoexbd";
+    font-size: 20px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    /* margin: 10px; */
+    color: white;
+    font-weight: bold;
+    flex-grow: 0;
+}
+
+.mybutton:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+
+.top-text .mybutton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* intro section  */
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*border:2px solid red;*/
+}
+
+.grid {
+    /*border:5px solid bisque;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    /*border:3px solid red;*/
+}
+
+.image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.image-box img {
+    width: 100px;
+    height: 100px;
+}
+
+.image-caption {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* quote section  */
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "truenoltit";
+    background-color: rgb(228, 228, 228);
+}
+
+.quote-container {
+    /*border:5px solid palegreen;*/
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.quote-text {
+    font-size: 30px;
+    font-style: italic;
+    /* border:1px solid red; */
+}
+
+.quote-text::before{
+    content: open-quote;
+    display: inline;
+    font-size: 30px;
+    color: #3882F6;
+}
+
+.quote-text::after{
+    content: close-quote;
+    display: inline;
+    font-size: 30px;
+    color: #3882F6;
+}
+
+.quote-owner {
+    font-size: 23px;
+    font-weight: bold;
+    /* border:1px solid gray; */
+    align-self: flex-end;
+}
+
+/* sign-up section  */
+
+.sign-up-section {
+    color: white;
+    display: flex;
+    flex: 1;
+    /* border:5px solid green;*/
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.sign-up-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 75%;
+    /* height:100px; */
+    /* border:1px solid violet; */
+}
+
+.sign-up-box .mybutton {
+    border:2px solid white;
+}
+
+.footer {
+    background-color: #2d3c50;
+    color: white;
+    justify-self: flex-end;
+    text-align: center;
+    /* border:5px solid fuchsia; */
+}
